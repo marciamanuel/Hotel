@@ -3,11 +3,67 @@
     box-sizing: border-box;
 }
 
+.menu{
+    color: black;
+}
 
+.navbar-brand{
+    font-size: 40px;
+}
 
-
-.collapse:hover{
-
-    color: aqua;
+.menu :hover{
+    background: rgb(174, 226, 226);
     text-transform: uppercase;
+    transition: 5s;
+    -webkit-transition: 5s;
+    -moz-transition: 5s;
+    -ms-transition: 5s;
+    -o-transition: 5s;
+}
+
+
+.carousel-control-prev-icon,.carousel-control-next-icon{
+
+    background: rgb(174, 226, 226);
+
+}
+
+#carouselExampleIndicators{
+
+       
+ font-size: 50px;
+}
+
+.nos a{
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    padding: 10px;
+    background: rgb(26, 25, 25);
+    color: white;
+
+   
+}
+
+.nos a:hover{
+    background: rgb(174, 226, 226);
+    color: black;
+}
+
+.nos img{
+    transition: width 5s, heigth 5s    ;
+    -webkit-transition: width 5s, heigth 5s    ;
+    -moz-transition: width 5s, heigth 5s    ;
+    -ms-transition: width 5s, heigth 5s    ;
+    -o-transition: width 5s, heigth 5s    ;
+}
+
+.nos img:hover{
+
+    width: 100%;
+    height: 400px;
+   
+
 }
