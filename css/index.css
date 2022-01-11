@@ -67,3 +67,25 @@
    
 
 }
+
+.contato .btn{
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+
+    padding: 10px;
+    background: rgb(36, 35, 35);
+    color: white;
+}
+
+.contato .btn:hover{
+
+    background: rgb(174, 226, 226);
+    color: black;
+}
+
+.rodape{
+    background: rgb(41, 163, 172);
+}
