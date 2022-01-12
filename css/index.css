@@ -1,10 +1,11 @@
 *{
-    font-family: 'Roboto';
+    
     box-sizing: border-box;
 }
 
 .menu{
     color: black;
+    font-family: 'Roboto';
 }
 
 .navbar-brand{
@@ -46,6 +47,9 @@
 
    
 }
+.carroseul h4{
+font-family: 'Regular 600 italic';
+}
 
 .nos a:hover{
     background: rgb(174, 226, 226);
@@ -67,6 +71,9 @@
     -ms-transition:  height 5s;
     -o-transition:  height 5s;
 }
+.corpo{
+    font-family: 'Roboto';
+}
 
 .nos img:hover{
     width: 100%;
@@ -84,6 +91,8 @@
     padding: 10px;
     background: rgb(36, 35, 35);
     color: white;
+    display: flex;
+    justify-content: end;
 }
 
 .contato .btn:hover{
