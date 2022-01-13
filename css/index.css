@@ -23,17 +23,7 @@
 }
 
 
-.carousel-control-prev-icon,.carousel-control-next-icon{
 
-    background: rgb(174, 226, 226);
-
-}
-
-#carouselExampleIndicators{
-
-       
- font-size: 50px;
-}
 
 .nos a{
     border-radius: 20px;
@@ -47,39 +37,24 @@
 
    
 }
-.carroseul h4{
-font-family: 'Regular 600 italic';
+.carroseul h2{
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+text-shadow: 4px 4px 4px #aaa;
+color: #c0c9cf;
+line-height: 390px;
+
+
 }
+
 
 .nos a:hover{
     background: rgb(174, 226, 226);
     color: black;
 }
-
-.nos img{
-    transition: width 5s;
-    -webkit-transition: width 5s;
-    -moz-transition: width 5s;
-    -ms-transition: width 5s;
-    -o-transition: width 5s;
-}
-.nos img{
-
-    transition:  height 5s;
-    -webkit-transition:  height 5s;
-    -moz-transition:  height 5s;
-    -ms-transition:  height 5s;
-    -o-transition:  height 5s;
-}
 .corpo{
     font-family: 'Roboto';
 }
 
-.nos img:hover{
-    width: 100%;
-    height: 400px;
-   
-}
 
 .quarto img:hover{
 
@@ -105,3 +80,40 @@ font-family: 'Regular 600 italic';
     background: rgb(41, 163, 172);
     color: rgb(224, 213, 213);
 }
+
+
+@media screen and (width-max:800px)
+{
+   
+    *{
+
+        width: 100%;
+
+        margin: 5px;
+
+    }
+
+    .carroseul h4{
+        font-size: 30px;
+        display: block;
+    }
+
+
+    .nos img{
+        width: 100%;
+    }
+
+    .nos .btn{
+        margin-bottom: 5px;
+    }
+
+   .quarto .card{
+
+        margin-bottom: 5px;
+        display: flex;
+        justify-content: center;
+    }
+
+}
+
+
