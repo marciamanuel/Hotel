@@ -82,16 +82,8 @@ line-height: 390px;
 }
 
 
-@media screen and (width-max:800px)
+@media screen and (max-width:800px)
 {
-   
-    *{
-
-        width: 100%;
-
-        margin: 5px;
-
-    }
 
     .carroseul h4{
         font-size: 30px;
@@ -114,6 +106,20 @@ line-height: 390px;
         justify-content: center;
     }
 
+}
+
+.card:hover{
+    transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform:scale(1.2);
+}
+
+
+@media screen and (min-width: 992px) {
+    
 }
 
 
